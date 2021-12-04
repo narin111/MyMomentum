@@ -30,7 +30,8 @@ function paintToDo(newTodo){
     // 받은 object에서 text값
     span.innerText = newTodo.text;
     const button = document.createElement("button");
-    button.innerText = "❌";
+    button.innerText = "✔";
+    button.classList.add("todoBtn");
     button.addEventListener("click", deleteToDo);
     li.appendChild(span);
     li.appendChild(button);

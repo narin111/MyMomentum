@@ -1,3 +1,60 @@
 .hidden{
     display: none;
 }
+
+.nameInput{
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 1px;
+}
+
+.bgImage{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    animation: fadeIn 0.5s linear;
+}
+
+.clck{
+    font-size : 100px;
+    align-items: center;
+    color : white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 10px;
+}
+
+.weather{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.quote{
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.greet{
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.todo{
+    color: white;
+}
+
+.todoBtn{
+    margin-left: 10px;
+    background-color: transparent;
+    border-color: white;
+    border-radius: 20px;
+}
+
+.todoInput{
+    background-color: transparent;
+    border-color: white;
+    border-radius: 10px;
+}
